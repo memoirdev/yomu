@@ -1,0 +1,26 @@
+{
+  "name": "@memoir/yomu",
+  "version": "0.0.0",
+  "description": "Free chrome extension, for readability",
+  "keywords": [
+    "readability"
+  ],
+  "author": "jonathan <jonathanramlie@outlook.com>",
+  "homepage": "https://www.memoir.dev/",
+  "license": "ISC",
+  "main": "lib/yomu.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/memoirdev"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
