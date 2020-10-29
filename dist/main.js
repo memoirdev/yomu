@@ -1,0 +1,2 @@
+console.log('run');(this.webpackJsonpyomu=this.webpackJsonpyomu||[]).push([[0],{9:function(t,e,n){"use strict";n.r(e);var o=n(0),r=n(1),u=n.n(r),c=n(3);var d=function(){return Object(o.jsx)("div",{})};n.n(c).a.render(Object(o.jsx)(u.a.StrictMode,{children:Object(o.jsx)(d,{})}),function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"yomu-root",e=document.getElementById(t);null===e&&((e=document.createElement("div")).setAttribute("id",t),document.body.appendChild(e));return e}("yomu-root"))}},[[9,1,2]]]);
+console.log(this.webpackJsonpyomu)
