@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "./scripts/build-app.sh",
+    "build": "./app-scripts/build-app.sh",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
