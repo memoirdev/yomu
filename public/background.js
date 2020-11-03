@@ -1,7 +1,8 @@
+/* eslint-env node, webextensions  */
 let activeIndex = 0;
 
 const iconPath = ["Yomu.png", "Yomu.png"];
-const scriptName = ["disable.js", "main.js"];
+const scriptName = ["/static/js/disable.js", "/static/js/enable.js"];
 
 function updateState() {
   activeIndex ^= 1;

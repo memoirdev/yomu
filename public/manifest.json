@@ -12,5 +12,12 @@
   "browser_action": {
     "default_icon": "Yomu.png"
   },
-  "permissions": ["activeTab"]
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["/static/css/enable.css"],
+      "js": ["/static/js/enable.js", "/static/js/disable.js"]
+    }
+  ]
 }

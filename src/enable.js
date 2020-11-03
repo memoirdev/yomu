@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./pages/_app";
+import Sheet from "./pages/sheet";
 import { getOrCreate } from "./utils/dom";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Sheet />
   </React.StrictMode>,
   getOrCreate("yomu-root")
 );

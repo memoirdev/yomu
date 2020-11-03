@@ -20,7 +20,7 @@ class Sheet extends React.Component {
     return (
       <div className={styles.yomu}>
         <div>{article.title}</div>
-        <div>{article.content}</div>
+        <div dangerouslySetInnerHTML={{ __html: article.content }}></div>
       </div>
     );
   }
