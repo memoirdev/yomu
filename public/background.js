@@ -1,6 +1,6 @@
 let activeIndex = 0;
 
-const iconPath = ["logo512.png", "logo512.png"];
+const iconPath = ["Yomu.png", "Yomu.png"];
 const scriptName = ["disable.js", "main.js"];
 
 function updateState() {
